@@ -124,9 +124,6 @@ $executionInterval, $keyToPress, $double_press = Get-ExecutionIntervalAndKey
 # Display the ASCII art
 Print-AsciiArt
 
-# Write the execution message
-Write-Host "`nThe script is running. The action will be performed every $executionInterval seconds. To stop the script, you can press CTRL+C or close the window."
-
 # Loop to simulate pressing the key at the specified interval
 while ($true) {
     $secondsRemaining = $executionInterval
@@ -134,7 +131,9 @@ while ($true) {
         Clear-Host
         Print-AsciiArt
         Write-Host "`nThe script is running. The action will be performed every $executionInterval seconds."
-        Write-Host "Next action in: $secondsRemaining seconds"
+        # Write the execution message
+        Write-Host "To stop the script, you can press CTRL+C or close the window."
+        Write-Host "`nNext action in: $secondsRemaining seconds"
         Start-Sleep -Seconds 1
         $secondsRemaining--
     }
