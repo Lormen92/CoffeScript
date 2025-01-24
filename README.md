@@ -32,7 +32,7 @@ The `config.json` file must be located in the same directory as the script. It a
 
 ```json
 {
-    "execution_interval": 10,
+    "execution_interval": 30,
     "key_to_press": "{SCROLLLOCK}",
     "double_press": true
 }
