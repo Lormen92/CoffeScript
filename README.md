@@ -33,14 +33,14 @@ The `config.json` file must be located in the same directory as the script. It a
 ```json
 {
     "execution_interval": 10,
-    "key_to_press": "{F5}",
+    "key_to_press": "{SCROLLLOCK}",
     "double_press": true
 }
 ```
 
 - **execution_interval**: Set to 10 seconds, the script will simulate the key press every 10 seconds.
-- **key_to_press**: Set to `{F5}`, the script will simulate pressing the F5 key.
-- **double_press**: Set to `true`, the script will simulate a double press of the F5 key.
+- **key_to_press**: Set to `{SCROLLLOCK}`, the script will simulate pressing the SCROLLLOCK key.
+- **double_press**: Set to `true`, the script will simulate a double press of the SCROLLLOCK key.
 
 ### If the `config.json` file is missing or contains invalid values, the script will prompt the user for an execution interval and assume default values for the key to press.
 
