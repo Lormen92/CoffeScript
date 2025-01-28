@@ -38,7 +38,7 @@ The `config.json` file must be located in the same directory as the script. It a
 }
 ```
 
-- **execution_interval**: Set to 10 seconds, the script will simulate the key press every 10 seconds.
+- **execution_interval**: Set to 10 seconds, the script will simulate the key press every 30 seconds.
 - **key_to_press**: Set to `{SCROLLLOCK}`, the script will simulate pressing the SCROLLLOCK key.
 - **double_press**: Set to `true`, the script will simulate a double press of the SCROLLLOCK key.
 
@@ -49,19 +49,19 @@ The `config.json` file must be located in the same directory as the script. It a
 The following keys can be used in the `key_to_press` field in the configuration file. Specify the key exactly as shown in the list:
 
 ### Function Keys:
-- `{F1}`, `{F2}`, `{F3}`, `{F4}`, `{F5}`, `{F6}`, `{F7}`, `{F8}`, `{F9}`, `{F10}`, `{F11}`, `{F12}`
+- `"{F1}"`, `"{F2}"`, `"{F3}"`, `"{F4}"`, `"{F5}"`, `"{F6}"`, `"{F7}"`, `"{F8}"`, `"{F9}"`, `"{F10}"`, `"{F11}"`, `"{F12}"`
 
 ### Navigation and Control Keys:
-- `{ENTER}`, `{TAB}`, `{ESC}`, `{SPACE}`, `{BACKSPACE}`, `{LEFT}`, `{RIGHT}`, `{UP}`, `{DOWN}`, `{HOME}`, `{END}`, `{PGUP}`, `{PGDN}`, `{INSERT}`, `{DELETE}`, `{PAUSE}`, `{BREAK}`, `{NUMLOCK}`, `{CAPSLOCK}`, `{SCROLLLOCK}`, `{PRINTSCREEN}`, `{LWIN}`, `{RWIN}`, `{APPLICATION}`
+- `"{ENTER}"`, `"{TAB}"`, `"{ESC}"`, `"{SPACE}"`, `"{BACKSPACE}"`, `"{LEFT}"`, `"{RIGHT}"`, `"{UP}"`, `"{DOWN}"`, `"{HOME}"`, `"{END}"`, `"{PGUP}"`, `"{PGDN}"`, `"{INSERT}"`, `"{DELETE}"`, `"{PAUSE}"`, `"{BREAK}"`, `"{NUMLOCK}"`, `"{CAPSLOCK}"`, `"{SCROLLLOCK}"`, `"{PRINTSCREEN}"`, `"{LWIN}"`, `"{RWIN}"`, `"{APPLICATION}"`
 
 ### Numpad Keys:
-- `{NUMPAD0}`, `{NUMPAD1}`, `{NUMPAD2}`, `{NUMPAD3}`, `{NUMPAD4}`, `{NUMPAD5}`, `{NUMPAD6}`, `{NUMPAD7}`, `{NUMPAD8}`, `{NUMPAD9}`, `{NUMPADENTER}`, `{NUMPADPLUS}`, `{NUMPADMINUS}`, `{NUMPADMULTIPLY}`, `{NUMPADDIVIDE}`, `{NUMPADDECIMAL}`
+- `"{NUMPAD0}"`, `"{NUMPAD1}"`, `"{NUMPAD2}"`, `"{NUMPAD3}"`, `"{NUMPAD4}"`, `"{NUMPAD5}"`, `"{NUMPAD6}"`, `"{NUMPAD7}"`, `"{NUMPAD8}"`, `"{NUMPAD9}"`, `"{NUMPADENTER}"`, `"{NUMPADPLUS}"`, `"{NUMPADMINUS}"`, `"{NUMPADMULTIPLY}"`, `"{NUMPADDIVIDE}"`, `"{NUMPADDECIMAL}"`
 
 ### Alphanumeric Keys:
 - `"a"`, `"b"`, `"c"`, `"d"`, `"e"`, `"f"`, `"g"`, `"h"`, `"i"`, `"j"`, `"k"`, `"l"`, `"m"`, `"n"`, `"o"`, `"p"`, `"q"`, `"r"`, `"s"`, `"t"`, `"u"`, `"v"`, `"w"`, `"x"`, `"y"`, `"z"`, `"0"`, `"1"`, `"2"`, `"3"`, `"4"`, `"5"`, `"6"`, `"7"`, `"8"`, `"9"`
 
 ### Other Keys:
-- `{+}`, `{-}`, `{=}`, `{,}`, `{.}`
+- `"{+}"`, `"{-}"`, `"{=}"`, `"{,}"`, `"{.}"`
 
 ## Running the Script
 
