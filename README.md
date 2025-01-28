@@ -38,7 +38,7 @@ The `config.json` file must be located in the same directory as the script. It a
 }
 ```
 
-- **execution_interval**: Set to 10 seconds, the script will simulate the key press every 30 seconds.
+- **execution_interval**: Set to 30 seconds, the script will simulate the key press every 30 seconds.
 - **key_to_press**: Set to `{SCROLLLOCK}`, the script will simulate pressing the SCROLLLOCK key.
 - **double_press**: Set to `true`, the script will simulate a double press of the SCROLLLOCK key.
 
